@@ -1,0 +1,79 @@
+.checked {
+    text-decoration: line-through;
+    color: blue;
+}
+
+.close {
+    cursor: pointer;
+    color: blueviolet
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100;
+    padding: 100;
+}
+
+.container {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center; 
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+fieldset {
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    animation: rgb-animation 5s infinite alternate;
+    text-align: center; 
+}
+
+@keyframes rgb-animation {
+    0% { border: 5px solid rgb(255, 0, 0); }
+    25% { border: 5px solid rgb(0, 255, 0); }
+    50% { border: 5px solid rgb(0, 0, 255); }
+    75% { border: 5px solid rgb(255, 255, 0); }
+    100% { border: 5px solid rgb(255, 0, 255); }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-align: center; 
+}
+
+li:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    cursor: pointer;
+    color: red;
+    margin-left: 15px;
+}
+
